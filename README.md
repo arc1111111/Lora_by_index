@@ -22,9 +22,13 @@ Restart ComfyUI.
 
 📦 Dependencies
 This custom node pack requires the following additional custom nodes to function properly:
+
 Comfyroll Custom Nodes (for CR String To Combo)
+
 Repository: https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
+
 Installation: Clone it into your custom_nodes folder or install via ComfyUI Manager.
+
 The CR String To Combo node is used to convert string outputs (such as model_name or lora_name) into combo/dropdown selections, which are then consumed by standard ComfyUI loader nodes.
 
 🚀 Usage
