@@ -20,7 +20,7 @@ A set of custom nodes for ComfyUI that allows you to load LoRAs and models (chec
 
 <img width="917" height="685" alt="Image1" src="https://github.com/user-attachments/assets/6e05839e-2d01-418a-a13b-fb32691e2f2a" />
 
-![Uploading Image2.png…]()
+<img width="963" height="877" alt="Image2" src="https://github.com/user-attachments/assets/19d1f93f-24a0-4d1d-b3fa-42279508aa66" />
 
 <img width="1674" height="813" alt="Image3" src="https://github.com/user-attachments/assets/6fde7d42-2186-497a-99ed-71ed168cc973" />
 
