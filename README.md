@@ -18,23 +18,14 @@ A set of custom nodes for ComfyUI that allows you to load LoRAs and models (chec
    cd ComfyUI/custom_nodes
    git clone https://github.com/arc1111111/Lora_by_index.git
 Install the required dependency (see below).
-
 Restart ComfyUI.
-
-Note: Make sure your ComfyUI folder_paths correctly maps the paths to loras, checkpoints, and diffusion_models folders.
 
 📦 Dependencies
 This custom node pack requires the following additional custom nodes to function properly:
-
 Comfyroll Custom Nodes (for CR String To Combo)
-
 Repository: https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes
-
 Installation: Clone it into your custom_nodes folder or install via ComfyUI Manager.
-
 The CR String To Combo node is used to convert string outputs (such as model_name or lora_name) into combo/dropdown selections, which are then consumed by standard ComfyUI loader nodes.
-
-Python libraries: numpy, torch, Pillow (usually included with ComfyUI).
 
 🚀 Usage
 Node LoraByIndexNode (LoRA by Index)
