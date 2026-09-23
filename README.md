@@ -16,7 +16,7 @@ A set of custom nodes for ComfyUI that allows you to load LoRAs and models (chec
 1. Clone the repository into your ComfyUI `custom_nodes` folder:
    ```bash
    cd ComfyUI/custom_nodes
-   git clone https://github.com/arc1111111/Lora_by_index.git<img width="963" height="877" alt="Image2" src="https://github.com/user-attachments/assets/afdc01aa-eeb7-4cd7-8463-e61b14dd7d70" />
+   git clone https://github.com/arc1111111/Lora_by_index.git
 
 <img width="917" height="685" alt="Image1" src="https://github.com/user-attachments/assets/6e05839e-2d01-418a-a13b-fb32691e2f2a" />
 
