@@ -1,19 +1,27 @@
 # Lora_by_index (ComfyUI Custom Nodes)
 
-Набор кастомных узлов для ComfyUI, которые позволяют загружать LoRA и модели (чекпоинты / diffusion models) **по числовому индексу** из указанной папки. Идеально подходит для массового тестирования: вы можете быстро переключаться между сотнями файлов прямо во время генерации, не меняя структуру графа.
+A set of custom nodes for ComfyUI that allows you to load LoRAs and models (checkpoints / diffusion models) **by numerical index** from a specified folder. Perfect for mass testing: you can quickly switch between hundreds of files during generation without modifying the graph structure.
 
-## ✨ Особенности
+## ✨ Features
 
-- **Загрузка LoRA по индексу** — выбирайте папку и номер, узел сам подставит нужный файл.
-- **Загрузка моделей по индексу** — поддержка `checkpoints` и `diffusion_models`.
-- **Автоматический предпросмотр** — если рядом с LoRA или моделью лежит изображение с тем же именем, узел покажет его.
-- **Список файлов** — узел выводит полный список доступных LoRA/моделей с их индексами.
-- **Гибкая настройка силы LoRA** — параметр `lora_strength` с шагом 0.05 и поддержкой отрицательных значений.
-- **Совместимость с `control_after_generate`** — можно автоматически увеличивать, уменьшать или рандомизировать индекс после каждой генерации.
+- **Load LoRA by index** — select a folder and a number, the node automatically fetches the corresponding file.
+- **Load models by index** — support for both `checkpoints` and `diffusion_models`.
+- **Automatic previews** — if an image with the same name exists next to the LoRA or model, the node will display it.
+- **File lists** — the node outputs a complete list of available LoRAs/models with their indices.
+- **Flexible LoRA strength** — `lora_strength` parameter with a 0.05 step and support for negative values.
+- **`control_after_generate` compatibility** — automatically increment, decrement, or randomize the index after each generation.
 
-## 🛠 Установка
+## 🛠 Installation
 
-1. Склонируйте репозиторий в папку `custom_nodes` вашей установки ComfyUI:
+1. Clone the repository into your ComfyUI `custom_nodes` folder:
    ```bash
    cd ComfyUI/custom_nodes
-   git clone https://github.com/arc1111111/Lora_by_index.git
+   git clone https://github.com/arc1111111/Lora_by_index.git<img width="963" height="877" alt="Image2" src="https://github.com/user-attachments/assets/afdc01aa-eeb7-4cd7-8463-e61b14dd7d70" />
+
+<img width="917" height="685" alt="Image1" src="https://github.com/user-attachments/assets/6e05839e-2d01-418a-a13b-fb32691e2f2a" />
+
+![Uploading Image2.png…]()
+
+<img width="1674" height="813" alt="Image3" src="https://github.com/user-attachments/assets/6fde7d42-2186-497a-99ed-71ed168cc973" />
+
+
