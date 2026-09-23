@@ -17,10 +17,13 @@ A set of custom nodes for ComfyUI that allows you to load LoRAs and models (chec
    ```bash
    cd ComfyUI/custom_nodes
    git clone https://github.com/arc1111111/Lora_by_index.git
+   
 Install the required dependency (see below).
+
 Restart ComfyUI.
 
 📦 Dependencies
+
 This custom node pack requires the following additional custom nodes to function properly:
 
 Comfyroll Custom Nodes (for CR String To Combo)
