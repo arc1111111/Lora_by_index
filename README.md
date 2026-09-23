@@ -31,16 +31,6 @@ Installation: Clone it into your custom_nodes folder or install via ComfyUI Mana
 
 The CR String To Combo node is used to convert string outputs (such as model_name or lora_name) into combo/dropdown selections, which are then consumed by standard ComfyUI loader nodes.
 
-🚀 Usage
-Node LoraByIndexNode (LoRA by Index)
-Inputs:
-
-folder — select the LoRA folder (displays the number of files in each folder).
-index — numerical index of the LoRA in the sorted list (0 to 9999).
-lora_strength — strength of the LoRA application (default 1.0, range -10.0 to 10.0).
-control_after_generate — behavior after generation (fixed, increment, decrement, randomize).
-
-
 
 <img width="917" height="685" alt="Image1" src="https://github.com/user-attachments/assets/6e05839e-2d01-418a-a13b-fb32691e2f2a" />
 
