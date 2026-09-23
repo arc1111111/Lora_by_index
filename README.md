@@ -36,46 +36,9 @@ Node LoraByIndexNode (LoRA by Index)
 Inputs:
 
 folder — select the LoRA folder (displays the number of files in each folder).
-
 index — numerical index of the LoRA in the sorted list (0 to 9999).
-
 lora_strength — strength of the LoRA application (default 1.0, range -10.0 to 10.0).
-
 control_after_generate — behavior after generation (fixed, increment, decrement, randomize).
-
-Outputs:
-
-lora_basename — filename without extension.
-
-lora_name — relative path to the LoRA.
-
-count_dir — number of LoRAs in the selected folder.
-
-lora_list — full list of LoRAs with indices (text).
-
-preview_image_path — path to the preview image (if found).
-
-preview_image — image tensor for preview.
-
-lora_basename_for_stack — string for LoRA stacking (in development).
-
-lora_strength — duplicated strength value.
-
-Node ModelByIndexNode (Model by Index)
-Inputs:
-
-folder — select the source (CKPT for checkpoints, DIFF for diffusion_models) and subfolder.
-
-index — numerical index of the model in the sorted list.
-
-control_after_generate — behavior after generation (fixed, increment, decrement, randomize).
-
-Outputs:
-
-model_basename — filename without extension.
-model_name — relative path to the model.
-preview_image — image tensor for preview.
-model_list — full list of models with indices (text).
 
 
 
